@@ -10,7 +10,7 @@ with payments as (
         amount / 100 as amount,
         status
 
-    from dbt-tutorial.stripe.payment
+    from `dbt-tutorial`.`stripe`.`payment`
 
 )
 
